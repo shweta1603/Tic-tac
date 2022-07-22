@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css"/>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <h3> Player 1: X   Player 2: O</h3>
+        <h2 id="current-turn-text">Player 1's turn</h2>
+        <div class="row">
+            <!-- in 1 row we want 3 column so 12/4=3 -->
+            <div class="col" onclick="singleMove(0)"></div>
+            <div class="col" onclick="singleMove(1)"></div>
+            <div class="col" onclick="singleMove(2)"></div>
+            <div class="col"  onclick="singleMove(3)"></div>
+            <div class="col" onclick="singleMove(4)"></div>
+            <div class="col" onclick="singleMove(5)"></div>
+            <div class="col" onclick="singleMove(6)"></div>
+            <div class="col" onclick="singleMove(7)"></div>
+            <div class="col" onclick="singleMove(8)"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
